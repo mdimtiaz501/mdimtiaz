@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+/*
+Left Menu Section
+*/
+
+
+.row{
+	font-family: Candara;
+}
+
+p{
+	font-size: 18px;
+}
+
+.myImage{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.row .col-3{
+	height: 100%;
+	background-color: #192a56;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.info h4{
+	color: white;
+}
+
+.info .links{
+	padding-bottom: 10px
+}
+
+.links a{
+	padding: 5px 5px 5px 5px;
+	color: white;
+
+}
+
+.links a:hover{
+	color: #16a085;
+}
+
+.fa-facebook{
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.myImage img{
+	border-radius: 50%
+}
+
+.menu{
+	width: 180px;
+	margin: auto;
+}
+
+.list-group li{
+	padding: 0;
+}
+
+.menu .list-group a{
+	text-decoration: none;
+	color: #16a085;
+	display: block;
+	padding: .75rem 1.25rem;
+}
+
+.list-group .list-group-item:hover{
+	background-color: #16a085;
+}
+.list-group .list-group-item:hover a{
+	color: white;
+}
+
+/*
+Content Section
+*/
+
+
+.color-green{
+	color: #16a085;
+}
+
+.education .row .color-green{
+	margin-bottom: 0px;
+}
+
+.experience .row .color-green{
+	margin-bottom: 0px;
+}
+
+.skills table tr{
+	padding: 10px;
+}
+
+.skills table td{
+	padding-right: 30px;
+}
+
+.skills table{
+	margin-bottom: 20px;
+}
+
+.common{
+	padding-top: 40px
+}
+
+.content .container:first-child{
+	padding-top: 30px
+}
+
+.content .container:last-child{
+	padding-bottom: 30px
+}
+
+a.cer_img {
+	display: block;
+}
+	
+a.cer_img>span {
+	position: absolute;
+	left: 240px;
+	top: -300px;
+	opacity:0;
+	display: none;
+}
+
+a.cer_img:hover>span {
+	opacity: 1;
+	height: auto;
+	z-index: 9;
+	display: block;
+}
